@@ -1,0 +1,396 @@
+
+
+.nav-nav {
+  padding: 24px 90px 24px 102px !important;
+  background-color: #C80606;
+}
+
+.shop-btn {
+  color: #C80606;
+  background-color: #FFFFFF;
+  padding: 10px 42px 10px 42px;
+  border-radius: 31.91px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  &:hover {
+    background-color: #ff4646c2;
+    color: #FFFFFF;
+    transition: 0.4s;
+  }
+}
+
+.hero {
+  padding: -1px 0 10px 42px;
+  overflow-x: hidden !important;
+}
+
+.heero {
+  overflow-x: hidden !important;
+}
+
+.bag-image {
+  background-image: url(/src/assets/Group\ 20000.png);
+  height: 41vw;
+  width: 102%;
+  background-position: center center;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  margin-left: 7.5rem;
+  margin-top: 6rem;
+}
+
+.hero-text h1 {
+  font-size: 54px !important;
+  width: 285% !important;
+  font-weight: 700 !important;
+}
+
+.hero-text p {
+  color: #232323;
+  font-weight: 500;
+  width: 160%;
+  line-height: 21.6px;
+}
+
+.hero-text button {
+  background-color: #BB2526;
+  border-radius: 31.91px;
+  color: #FFFFFF;
+  padding: 8px 50px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  &:hover {
+    background-color: #ec3d3d;
+    color: #fff;
+    transition: 0.3s;
+  }
+}
+
+.change {
+  color: #C80606;
+}
+
+.trust-logo {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.lines {
+  background-color: #CCCCCC;
+  height: 30px;
+  width: 1px;
+}
+
+.how-it-works {
+  margin-left: 1rem;
+  margin-right: 6rem;
+}
+
+.orders {
+  display: flex;
+}
+
+.first-top {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.first-top h4 {
+  color: #1A1A1A;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.first-top p {
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.second-top {
+  display: flex;
+  gap: 9rem;
+  margin-top: 3rem;
+  text-align: center;
+  margin-left: 2.9rem;
+}
+
+.second-top h4 {
+  color: #1A1A1A;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.second-top p {
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+}
+.choose {
+  margin-left: 6rem;
+  margin-right: 1rem;
+}
+
+.two-images {
+  display: flex;
+}
+
+.two-images div img {
+  &:hover {
+  transform: scale(0.99);
+  cursor: pointer;
+  }
+}
+
+.last-image img {
+  &:hover {
+    transform: scale(0.99);
+    cursor: pointer;
+    }
+}
+
+.list-span {
+  color: #232323;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.pee {
+  font-weight: 500;
+  color: #232323;
+  font-size: 15px;
+}
+
+.pick {
+  color: #C80606;
+}
+
+.why-text {
+  font-weight: 800;
+}
+
+.community {
+  background: url(./assets/Desktop\ -\ 11.png)  no-repeat bottom/cover;
+  height: 50vw;
+}
+
+.backg-btn {
+  background-color: #FFFFFF;
+  color: #C80606;
+  cursor: pointer;
+  &:hover{
+    background: #C80606;
+    color: #fff;
+    transition: 0.4s;
+  }
+  outline: none;
+  border: none;
+  border-radius: 31.91px;
+  padding: 8px 30px;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.featured {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 4.5rem;
+}
+.cartcarry {
+  margin-top: 3rem;
+  width: 105%;
+ box-shadow: 2px 2px 6px rgba(73, 69, 69, 0.5);
+  background: url(./assets/Rectangle\ 54.png) no-repeat bottom/cover;
+  &:hover {
+    transition: all 0.2s ease-out;
+    /* box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.637); */
+    cursor: pointer;
+    transform: scale(0.99);
+  }
+  height: 65vh;
+  border-radius: 6px;
+}
+
+.pepper {
+ margin-top: 3rem;
+ width: 105%;
+ background: url(./assets/Rectangle\ 54\ \(1\).png) no-repeat bottom/cover;
+ &:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.637);
+  cursor: pointer;
+  transform: scale(0.99);
+}
+ height: 65vh;
+border-radius: 6px;
+}
+
+.gadgets{
+ margin-top: 3rem;
+ width: 105%;
+ &:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.637);
+  cursor: pointer;
+  transform: scale(0.99);
+}
+  height: 65vh;
+  border-radius: 6px;
+  background: url(./assets/Rectangle\ 54\ \(2\).png) no-repeat bottom/cover;
+}
+
+.construct {
+ margin-top: 3rem;
+ width: 105%;
+ box-shadow: 2px 2px 6px rgba(73, 69, 69, 0.5);
+ &:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.637);
+  cursor: pointer;
+  transform: scale(0.99);
+}
+  height: 65vh;
+  border-radius: 6px;
+  background: url(./assets/Rectangle\ 54\ \(3\).png) no-repeat bottom/cover;
+}
+
+.cart-shop {
+  outline: none;
+  border: none;
+  background: #C80606;
+  color: #fff;
+  &:hover {
+    background-color: #fff;
+    color: #C80606;
+    transition: 1s;
+  }
+  font-weight: 600;
+  padding: 7px 35px;
+  border-radius: 20px;
+}
+
+.pepper-shop {
+  outline: none;
+  border: none;
+  background: #fff;
+  color: #C80606;
+  &:hover{
+    background-color: #C80606;
+    color: #fff;
+    transition: 2s;
+  }
+  font-weight: 600;
+  padding: 7px 35px;
+  border-radius: 20px;
+}
+.footy {
+  background: #F7F7F7;
+  padding: 2px;
+}
+
+.footer-section{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 4rem;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials{
+  display: flex;
+  gap: 1rem;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.form-form {
+  margin-top: 12px;
+  display: flex;
+}
+
+.form-form input {
+  border: 1px solid #E6E6E6;
+  padding: 9px 24px 9px 24px;
+  border-radius: 46px;
+  background: #FFFFFF;
+  margin-right: -40px;
+  outline: #fff;
+}
+
+.form-form button {
+  background: #C80606;
+  color: #fff;
+  outline: none;
+  padding: 10px 24px 10px 24px;
+  border-radius: 46px;
+  border: none;
+}
+
+.footer-logo {
+  padding-top: 3.5rem;
+}
+
+.main-main {
+  background-color: #1A1A1A;
+}
+
+.foot-main{
+  color: #999999;
+  display: flex;
+  gap: 8.93rem;
+  margin-left: 5rem;
+  margin-right: 4rem;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 40px;
+}
+
+.footer-cont {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.footer-cont div h4 {
+  color: #FFFFFF;
+}
+
+.numb {
+  display: flex;
+  gap: 14px;
+}
+
+.bottom-bottom {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 4.8rem;
+  margin-right: 4rem;
+  justify-content: space-between;
+}
+.bottom-pay {
+  display: flex;
+  gap: 8px;
+}
+
+
+
+
+@media screen and (max-width: 1600px) {
+  .hero {
+    overflow-x: hidden !important;
+  }
+  .nav-nav {
+    overflow-x: hidden !important;
+  }
+}
