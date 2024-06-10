@@ -43,7 +43,7 @@ const Hero = () => {
                         </div>
                         <div className='lines'></div>
                         <div>
-                            <img src={Book} alt="" />
+                            <img className='book-book' src={Book} alt="" />
                         </div>
                         <div className='lines'></div>
                         <div>
@@ -62,11 +62,11 @@ const Hero = () => {
                 <div className="orders">
                 <div>
                     <div className="col-sm-12 col-md-12 col-md-6">
-                        <img style={{width: "90%", marginLeft: "5rem", marginTop: "2.5rem"}} src={Shopin} alt="" />
+                        <img className='how-image' style={{width: "90%", marginLeft: "5rem", marginTop: "2.5rem"}} src={Shopin} alt="" />
                     </div>
                 </div>
                 <div>
-                    <div style={{marginTop: "6rem"}} className="col-sm-12 col-md-12 col-md-6">
+                    <div id="push" style={{marginTop: "6rem"}} className="col-sm-12 col-md-12 col-md-6">
                         <div className="first-top">
                             <div className="browse">
                                 <img src={Browse} alt="" />
@@ -100,7 +100,7 @@ const Hero = () => {
             <div className="chose">
                 <div className="choose-text">
                     <div className="row">
-                        <div style={{marginTop: "10.5rem"}} className="col-sm-12 col-md-12 col-lg-6">
+                        <div id='choosy' style={{marginTop: "10.5rem"}} className="col-sm-12 col-md-12 col-lg-6">
                             <h3 className='why-text'>Why <span className='pick'>Choose</span> Us</h3>
                             <ul>
                                 <li>
@@ -138,7 +138,7 @@ const Hero = () => {
         </div>
         <div className="community">
             <div>
-            <h2 style={{textAlign: "center", paddingTop: "15rem", color: "#fff", fontSize: "40px", fontWeight: "600"}}>Join a Community of Global Shoppers. join different shipment <br /> groups across  different product categories.</h2>
+            <h2 className='commy' style={{textAlign: "center", paddingTop: "15rem", color: "#fff", fontSize: "40px", fontWeight: "600"}}>Join a Community of Global Shoppers. join different shipment <br /> groups across  different product categories.</h2>
             <div style={{textAlign: "center"}}>
                 <button className='backg-btn'>Start Shopping <img src={Cart} alt="" /></button>
             </div>

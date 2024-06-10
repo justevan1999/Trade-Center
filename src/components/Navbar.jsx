@@ -13,10 +13,10 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                     </ul>
-                    <li style={{marginRight: "20px", listStyle: "none"}}>
+                    <li className='navvy' style={{marginRight: "20px", listStyle: "none"}}>
                         <a style={{color: "#FFFFFF"}} href="#">About</a>
                     </li>
-                    <li style={{marginRight: "20px", listStyle: "none"}}>
+                    <li className='navvy' style={{marginRight: "20px", listStyle: "none"}}>
                         <a style={{color: "#FFFFFF"}} href="#">Products</a>
                     </li>
                     <button className="shop-btn" type="submit">Start Shopping <img src={Cart} alt="" /></button>

@@ -1,5 +1,7 @@
 
-
+.row {
+  margin: 0;
+}
 .nav-nav {
   padding: 24px 90px 24px 102px !important;
   background-color: #C80606;
@@ -383,6 +385,279 @@ border-radius: 6px;
   gap: 8px;
 }
 
+
+@media screen and (max-width: 992px) {
+  .heero {
+    overflow-x: hidden !important;
+  }
+
+  .hero {
+    overflow-x: hidden !important;
+  }
+
+  .navbar {
+    padding: 20px 20px !important;
+  }
+
+  .hero-text h1 {
+    font-size: 32px !important;
+    width: 100% !important;
+    font-weight: 700 !important;
+}
+
+.hero-text button {
+  margin: 0 -10px !important;
+  width: 100% !important;
+}
+
+.bag-image {
+  height: 35vh !important;
+  image-rendering: auto;
+  margin-top: 25px;
+  width: 100% !important;
+}
+
+.lines {
+  display: none;
+}
+
+.book-book {
+  margin-left: 20px;
+}
+.orders {
+  display: block !important;
+}
+
+.how-image {
+  width: 100% !important;
+  margin-left: -2px !important;
+}
+
+.choose {
+  margin-left: 16px !important;
+  margin-right: 18px !important;
+}
+
+.two-images {
+  display: block !important;
+}
+
+.last-image {
+  margin-left: 0 !important;
+}
+.last-image img {
+  width: 100% !important;
+  margin-top: 45px !important;
+}
+
+.two-images div img {
+  width: 100% !important;
+}
+
+.navvy {
+  padding: 5px 0 !important;
+}
+
+.shop-btn {
+  margin-top: 5px !important;
+}
+
+#choosy {
+  margin-top: 15px !important;
+}
+.how-it-works {
+  margin-right: 0 !important;
+}
+
+.second-top {
+  margin-left:  0 !important;
+  gap: 2rem !important;
+}
+
+.trust-logo {
+  display: grid !important;
+  grid-template-columns: repeat(2, 2fr);
+  text-align: center;
+}
+
+.navbar-collapse {
+  text-align: center !important;
+}
+
+.hero-text p {
+  width: 100% !important;
+  line-height: 20.6px !important;
+  font-size: 17px !important;
+}
+
+  .hero-text {
+    margin-left: 20px !important;
+    margin-top: 40px !important;
+}
+
+  br {
+    display: none !important;
+  }
+
+  .account {
+    margin-top: 16px !important;
+  }
+
+  .bottom-bottom {
+    display: block;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.join {
+  margin-left: 0 !important;
+}
+
+.commy {
+  text-align: center;
+  padding-top: 45px !important;
+  font-size: 18px !important;
+}
+
+.backg-btn {
+  margin-top: 2px !important;
+}
+
+.down-p {
+  text-align: center;
+  font-size: 14px;
+}
+.bottom-pay {
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.footer-section {
+  margin-top: 2rem;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.footer-top {
+  display: block;
+}
+
+.socials {
+  gap: 3rem;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.form-form input {
+  width: 100%;
+}
+
+.form-form button {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.form-form {
+  display: block;
+}
+.sub {
+  font-size: 26px;
+}
+
+.featured {
+  margin-left: 14px;
+  margin-right: 30px;
+}
+  .foot-main {
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+/* Media query for both Google Nest Hub and Nest Hub Max */
+@media (min-width: 1024px) and (max-width: 1024px) and (min-height: 600px) and (max-height: 600px) {
+
+  br {
+    display: none !important;
+  }
+  .hero-text h1 {
+    font-size: 32px !important;
+}
+.hero-text p {
+  font-size: 15px !important;
+  width: 260% !important;
+}
+
+.hero-text button {
+padding: 8px 24px !important;
+width: 200% !important;
+}
+
+.trust-logo {
+  gap: 2rem !important;
+}
+
+#push {
+  margin-left:  60px;
+}
+
+.second-top {
+  margin-left: 0 !important;
+}
+
+.last-image {
+margin-left: 5.9rem !important;
+}
+
+.choose {
+margin-left: 3rem !important;
+margin-right: 0 !important;
+}
+
+.two-images {
+margin-left: -39px !important;
+}
+
+.foot-main {
+display: flex !important;
+gap: 4.93rem !important;
+}
+}
+
+
+@media 
+  (min-width: 1280px) and (max-width: 1280px) and (min-height: 800px) and (max-height: 800px) {
+    .hero-text h1 {
+      font-size: 45px !important;
+  }
+  .hero-text p {
+    font-size: 15px !important;
+}
+
+.hero-text button {
+  padding: 8px 24px !important;
+}
+
+.last-image {
+  margin-left: 5.9rem !important;
+}
+
+.choose {
+  margin-left: 3rem !important;
+  margin-right: 0 !important;
+}
+
+.two-images {
+  margin-left: -39px !important;
+}
+
+.foot-main {
+  display: flex !important;
+  gap: 4.93rem !important;
+}
+  /* Your CSS rules for both devices */
+}
 
 
 

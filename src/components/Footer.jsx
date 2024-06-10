@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-section">
         <div className="footer-top">
             <div>
-                <h4 style={{color: "#1A1A1A", fontWeight: "700"}}>Subcribe our Newsletter</h4>
+                <h4 className='sub' style={{color: "#1A1A1A", fontWeight: "700"}}>Subcribe our Newsletter</h4>
                 <p style={{color: "#999999"}}>Pellentesque eu nibh eget mauris congue mattis mattis nec <br /> tellus. Phasellus imperdiet elit eu magna.</p>
             </div>
             <div className='form-form'>
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
         <div className='bottom-bottom'>
             <div>
-                <p style={{color: "#808080"}}>Trade Center eCommerce © 2021. All Rights Reserved</p>
+                <p className='down-p' style={{color: "#808080"}}>Trade Center eCommerce © 2021. All Rights Reserved</p>
             </div>
             <div className='bottom-pay'>
                 <div>
