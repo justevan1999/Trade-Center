@@ -575,6 +575,17 @@ border-radius: 6px;
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
+  .first-top {
+    gap: 1rem !important;
+}
+.second-top {
+  margin-top: 2rem !important;
+}
+
+.dexx {
+  width: 112% !important;
+}
 }
 
 /* Media query for both Google Nest Hub and Nest Hub Max */

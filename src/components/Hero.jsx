@@ -83,7 +83,7 @@ const Hero = () => {
                         <div className="second-top">
                             <div className="pay mt-4">
                                 <img src={Pay} alt="" />
-                                <h4>Pay Your Share of <br /> Wholesale Price</h4>
+                                <h4 className='dexx'>Pay Your Share of <br /> Wholesale Price</h4>
                                 <p style={{width: "100%"}}>Only pay for the portion you order.</p>
                             </div>
                             <div className="enjoy mt-4">
