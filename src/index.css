@@ -413,7 +413,7 @@ border-radius: 6px;
 }
 
 .bag-image {
-  height: 35vh !important;
+  height: 32vh !important;
   image-rendering: auto;
   margin-top: 25px;
   width: 100% !important;
@@ -489,7 +489,7 @@ border-radius: 6px;
 .hero-text p {
   width: 100% !important;
   line-height: 20.6px !important;
-  font-size: 17px !important;
+  font-size: 15px !important;
 }
 
   .hero-text {
