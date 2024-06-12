@@ -1,4 +1,5 @@
 import React from 'react'
+import '../index.css'
 import { Cart2, Steps, Mango, Foods, Food, Book, Gseries, Shopin, Browse, Join, Enjoy, Pay, Offer, Fold, People, Cart,Cartcarry, Pepper, Tabs, Construct, Arrow2, Arrow } from '../assets'
 
 const Hero = () => {
